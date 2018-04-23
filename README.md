@@ -1,4 +1,4 @@
-Soiling_Extraction
+pv_soiling
 ==================
 Michael Deceglie
 michael.deceglie@nrel.gov
