@@ -5,6 +5,9 @@ michael.deceglie@nrel.gov
 
 Code for extracting soiling loss from PV plant data according to the stochastic rate and recovery (SRR) method described in [1].
 
+## Installation
+Download the source. `cd` to the source folder (containing `setup.py`) and run `pip install .`
+
 ## Usage
 
 Please see the demo notebook for a typical usage example.
