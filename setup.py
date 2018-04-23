@@ -9,7 +9,7 @@ setup(name='pv_soiling',
       license='MIT',
       author='Michael Deceglie',
       author_email="michael.deceglie@nrel.gov",
-      url='https://github.nrel.gov/raw/PVPerformanceAndReliability/pv_soiling',
+      url='https://github.com/NREL/pv_soiling',
       packages=['pv_soiling'],
       install_requires=["pandas", "numpy", "scipy"],
       )
