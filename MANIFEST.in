@@ -1,0 +1,2 @@
+include versioneer.py
+include pv_soiling/_version.py
