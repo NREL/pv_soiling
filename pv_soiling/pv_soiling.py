@@ -296,11 +296,11 @@ def create_pm_frame(pm, insol, precip=None, manual_clean=None, day_scale=14, cle
 
     pm_freq = pm.index.freq
     if ~isinstance(pm_freq, str):
-        pm_freq = pm_freq.freqstring
+        pm_freq = pm_freq.freqstr
 
     insol_freq = insol.index.freq
     if ~isinstance(insol_freq, str):
-        insol_freq = insol_freq.freqstring
+        insol_freq = insol_freq.freqstr
 
     if pm_freq != 'D':
         raise ValueError('Daily performance metric series must have daily frequency')
@@ -311,7 +311,7 @@ def create_pm_frame(pm, insol, precip=None, manual_clean=None, day_scale=14, cle
     if precip is not None:
         precip_freq = precip.index.freq
         if ~isinstance(precip_freq, str):
-            precip_freq = precip_freq.freqstring
+            precip_freq = precip_freq.freqstr
         if precip_freq != 'D':
             raise ValueError('Precipitation series must have daily frequency')
 
