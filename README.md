@@ -1,5 +1,9 @@
 pv_soiling
 ==================
+## DEPRICATED
+This repository is depricated. The most up to date implimentation of the stochastic rate and recovery method is available in RdTools (https://github.com/NREL/rdtools)
+
+## Summary
 Michael Deceglie
 michael.deceglie@nrel.gov
 
